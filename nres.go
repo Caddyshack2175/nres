@@ -17,7 +17,7 @@ func main() {
 
 /*
 ##
-	This resolver uses api.tenable.com not nessus.org this action seems to to take less time with a halt on the redirect getting the URI from the Location header.
+	This resolver uses api.tenable.com not nessus.org this action seems to take less time with a halt on the redirect getting the URI from the Location header.
 ##
 */
 func NessusURLResolver(url string) string {
